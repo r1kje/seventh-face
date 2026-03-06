@@ -13,7 +13,7 @@
       </ul>
     </nav>
   </header>
-
+  <router-view/>
   <footer class="footer-main">
     <router-link to="/">Главная</router-link>
     <router-link to="/store">Наши магазины</router-link>
