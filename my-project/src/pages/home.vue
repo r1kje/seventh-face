@@ -1,8 +1,15 @@
 <template>
   <div class="container">
-    <h1>Welcome to the Home Page</h1>
-    <div class="block">block1</div>
-    <div class="block">block2</div>
+    <!-- <h1>Welcome to the Home Page</h1>  -->
+    <div class="block">
+      <p>Это какой-то товар, например, гаечный ключ на 13</p>
+    </div>
+    <div class="block">
+      <p>Это другой товар, например, отвертка аовловвоалавававававав</p>
+    </div>
+    <div class="block">
+      <p>Это третий товар, например, шуруповерт</p>
+    </div>
   </div>
 </template>
 
@@ -10,11 +17,18 @@
 </script>
 
 <style scoped>
-.blockk {
-  width: 200px;
-  height: 200px;
-  color: #fff;
+.container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.block {
+  width: 250px;
+  height: 300px;
+  background-color: beige;
   margin: 20px;
-  display: inline-block;
+  display: flex;
+  vertical-align: top;
 }
 </style>
